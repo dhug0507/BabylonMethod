@@ -8,8 +8,13 @@
  */
 public class Sqrt {
 	
-	
+	//Method to compute the square root using the Babylon Method
 	public static double getSqrt(double number){
+		double error = .0001;
+		double s = number;
+		
+		
+		
 		
 	}
 
