@@ -9,6 +9,9 @@
 public class Sqrt {
 	
 	
+	public static double getSqrt(double number){
+		
+	}
 
 	
 	
