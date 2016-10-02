@@ -7,6 +7,11 @@
  * using the Babylon method.
  */
 public class Sqrt {
+	double number;
+	
+	public Sqrt(double number){
+		this.number = number;
+	}
 	
 	//Method to compute the square root using the Babylon Method
 	public static double getSqrt(double number){
