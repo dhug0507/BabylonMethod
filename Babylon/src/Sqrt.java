@@ -18,12 +18,14 @@ public class Sqrt {
 		 * while loop will repeat
 		 */
 		while((s-number/s) > error){
-			
-			
+			s = ((s + number/s)/2); //Average
+			System.out.println(s); //prints out the average
+			//prints out the current error
+			System.out.println("Error: " + (s-number/s));
 			
 		}
-		
-		
+		System.out.println("Error: " + (s-number/s));
+		return s;
 		
 		
 	}
